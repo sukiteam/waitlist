@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>OxPay — Waitlist</title>
+  <meta name="description" content="Join the OxPay waitlist." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <main class="wrap">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+
+    <section class="card">
+      <header class="brand">
+        <div class="logo"></div>
+        <div class="brand-name">OxPay</div>
+      </header>
+
+      <h1 class="title">The simplest way to use crypto.</h1>
+      <p class="subtitle">Clean design. Built-in protection. Cashback that rewards real usage.</p>
+
+      <div class="chips">
+        <span class="chip">Cashback rewards</span>
+        <span class="chip">Scam-aware protection</span>
+        <span class="chip">Built for real people</span>
+      </div>
+
+      <form id="waitlistForm" class="form" autocomplete="on">
+        <input
+          id="email"
+          name="email"
+          type="email"
+          inputmode="email"
+          autocomplete="email"
+          placeholder="Enter your email"
+          required
+        />
+        <button id="submitBtn" type="submit">Join Waitlist</button>
+      </form>
+
+      <p id="status" class="status" aria-live="polite"></p>
+
+      <footer class="footer">
+        <div class="launch">Launching <span>February 28</span></div>
+        <div class="trust">Powered by IOXA • Security-first • No hype, just utility</div>
+      </footer>
+    </section>
+
+    <p class="fineprint">
+      By joining, you agree to receive updates about OxPay. Unsubscribe anytime.
+    </p>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
